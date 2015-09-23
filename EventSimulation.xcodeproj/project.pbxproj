@@ -9,6 +9,20 @@
 /* Begin PBXBuildFile section */
 		841A3FD01A9BDA8500792760 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FCF1A9BDA8500792760 /* main.cpp */; };
 		841A3FD21A9BDA8500792760 /* EventSimulation.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 841A3FD11A9BDA8500792760 /* EventSimulation.1 */; };
+		841A3FDA1A9BDBCD00792760 /* Bar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FD81A9BDBCD00792760 /* Bar.cpp */; };
+		841A3FDD1A9BDC6600792760 /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FDB1A9BDC6600792760 /* Event.cpp */; };
+		841A3FE31A9D140E00792760 /* RandomInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FE11A9D140E00792760 /* RandomInteger.cpp */; };
+		841A3FE61A9D183800792760 /* PriorityQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FE41A9D183800792760 /* PriorityQueue.cpp */; };
+		841A3FE91A9D259800792760 /* ArriveEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FE71A9D259800792760 /* ArriveEvent.cpp */; };
+		841A3FEC1A9D290000792760 /* OrderEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FEA1A9D290000792760 /* OrderEvent.cpp */; };
+		841A3FF81A9D45A500792760 /* LeaveEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FF61A9D45A500792760 /* LeaveEvent.cpp */; };
+		841A3FFB1A9DBD3300792760 /* SimulationController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A3FF91A9DBD3300792760 /* SimulationController.cpp */; };
+		841A40041AA292B100792760 /* EventSimulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A40021AA292B100792760 /* EventSimulation.cpp */; };
+		841A40071AA67DB400792760 /* Beer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A40051AA67DB400792760 /* Beer.cpp */; };
+		841A400A1AA6A27D00792760 /* BarEventPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 841A40081AA6A27D00792760 /* BarEventPattern.cpp */; };
+		84E8A9AD1AACE2F10064A495 /* BarEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9AB1AACE2F10064A495 /* BarEvent.cpp */; };
+		84E8A9B01AACE5CC0064A495 /* FileWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9AE1AACE5CC0064A495 /* FileWriter.cpp */; };
+		84E8A9B51AAE45240064A495 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E8A9B31AAE45240064A495 /* Log.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +42,34 @@
 		841A3FCC1A9BDA8500792760 /* EventSimulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EventSimulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		841A3FCF1A9BDA8500792760 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		841A3FD11A9BDA8500792760 /* EventSimulation.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EventSimulation.1; sourceTree = "<group>"; };
+		841A3FD81A9BDBCD00792760 /* Bar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bar.cpp; sourceTree = "<group>"; };
+		841A3FD91A9BDBCD00792760 /* Bar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		841A3FDB1A9BDC6600792760 /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		841A3FDC1A9BDC6600792760 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		841A3FE11A9D140E00792760 /* RandomInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomInteger.cpp; sourceTree = "<group>"; };
+		841A3FE21A9D140E00792760 /* RandomInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomInteger.h; sourceTree = "<group>"; };
+		841A3FE41A9D183800792760 /* PriorityQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PriorityQueue.cpp; sourceTree = "<group>"; };
+		841A3FE71A9D259800792760 /* ArriveEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArriveEvent.cpp; sourceTree = "<group>"; };
+		841A3FE81A9D259800792760 /* ArriveEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArriveEvent.h; sourceTree = "<group>"; };
+		841A3FEA1A9D290000792760 /* OrderEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OrderEvent.cpp; sourceTree = "<group>"; };
+		841A3FEB1A9D290000792760 /* OrderEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderEvent.h; sourceTree = "<group>"; };
+		841A3FF61A9D45A500792760 /* LeaveEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeaveEvent.cpp; sourceTree = "<group>"; };
+		841A3FF71A9D45A500792760 /* LeaveEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveEvent.h; sourceTree = "<group>"; };
+		841A3FF91A9DBD3300792760 /* SimulationController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimulationController.cpp; sourceTree = "<group>"; };
+		841A3FFA1A9DBD3300792760 /* SimulationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimulationController.h; sourceTree = "<group>"; };
+		841A40001A9E451D00792760 /* Comparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comparable.h; sourceTree = "<group>"; };
+		841A40021AA292B100792760 /* EventSimulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventSimulation.cpp; sourceTree = "<group>"; };
+		841A40031AA292B100792760 /* EventSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventSimulation.h; sourceTree = "<group>"; };
+		841A40051AA67DB400792760 /* Beer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Beer.cpp; sourceTree = "<group>"; };
+		841A40061AA67DB400792760 /* Beer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beer.h; sourceTree = "<group>"; };
+		841A40081AA6A27D00792760 /* BarEventPattern.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarEventPattern.cpp; sourceTree = "<group>"; };
+		841A40091AA6A27D00792760 /* BarEventPattern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarEventPattern.h; sourceTree = "<group>"; };
+		84E8A9AB1AACE2F10064A495 /* BarEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarEvent.cpp; sourceTree = "<group>"; };
+		84E8A9AC1AACE2F10064A495 /* BarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarEvent.h; sourceTree = "<group>"; };
+		84E8A9AE1AACE5CC0064A495 /* FileWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileWriter.cpp; sourceTree = "<group>"; };
+		84E8A9AF1AACE5CC0064A495 /* FileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWriter.h; sourceTree = "<group>"; };
+		84E8A9B31AAE45240064A495 /* Log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		84E8A9B41AAE45240064A495 /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +103,35 @@
 			isa = PBXGroup;
 			children = (
 				841A3FCF1A9BDA8500792760 /* main.cpp */,
+				841A40001A9E451D00792760 /* Comparable.h */,
+				841A3FDB1A9BDC6600792760 /* Event.cpp */,
+				841A3FDC1A9BDC6600792760 /* Event.h */,
+				84E8A9AB1AACE2F10064A495 /* BarEvent.cpp */,
+				84E8A9AC1AACE2F10064A495 /* BarEvent.h */,
+				841A3FE71A9D259800792760 /* ArriveEvent.cpp */,
+				841A3FE81A9D259800792760 /* ArriveEvent.h */,
+				841A3FEA1A9D290000792760 /* OrderEvent.cpp */,
+				841A3FEB1A9D290000792760 /* OrderEvent.h */,
+				841A3FF61A9D45A500792760 /* LeaveEvent.cpp */,
+				841A3FF71A9D45A500792760 /* LeaveEvent.h */,
 				841A3FD11A9BDA8500792760 /* EventSimulation.1 */,
+				841A3FF91A9DBD3300792760 /* SimulationController.cpp */,
+				841A3FFA1A9DBD3300792760 /* SimulationController.h */,
+				841A3FD81A9BDBCD00792760 /* Bar.cpp */,
+				841A3FD91A9BDBCD00792760 /* Bar.h */,
+				841A40051AA67DB400792760 /* Beer.cpp */,
+				841A40061AA67DB400792760 /* Beer.h */,
+				841A3FE11A9D140E00792760 /* RandomInteger.cpp */,
+				841A3FE21A9D140E00792760 /* RandomInteger.h */,
+				841A3FE41A9D183800792760 /* PriorityQueue.cpp */,
+				841A40021AA292B100792760 /* EventSimulation.cpp */,
+				841A40031AA292B100792760 /* EventSimulation.h */,
+				841A40081AA6A27D00792760 /* BarEventPattern.cpp */,
+				841A40091AA6A27D00792760 /* BarEventPattern.h */,
+				84E8A9AE1AACE5CC0064A495 /* FileWriter.cpp */,
+				84E8A9AF1AACE5CC0064A495 /* FileWriter.h */,
+				84E8A9B31AAE45240064A495 /* Log.cpp */,
+				84E8A9B41AAE45240064A495 /* Log.h */,
 			);
 			path = EventSimulation;
 			sourceTree = "<group>";
@@ -92,7 +162,7 @@
 		841A3FC41A9BDA8500792760 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Matthew Valli";
 			};
 			buildConfigurationList = 841A3FC71A9BDA8500792760 /* Build configuration list for PBXProject "EventSimulation" */;
@@ -117,7 +187,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841A3FF81A9D45A500792760 /* LeaveEvent.cpp in Sources */,
+				841A3FE31A9D140E00792760 /* RandomInteger.cpp in Sources */,
+				841A40071AA67DB400792760 /* Beer.cpp in Sources */,
+				841A40041AA292B100792760 /* EventSimulation.cpp in Sources */,
+				841A3FDD1A9BDC6600792760 /* Event.cpp in Sources */,
+				841A3FE61A9D183800792760 /* PriorityQueue.cpp in Sources */,
+				84E8A9B51AAE45240064A495 /* Log.cpp in Sources */,
 				841A3FD01A9BDA8500792760 /* main.cpp in Sources */,
+				841A3FEC1A9D290000792760 /* OrderEvent.cpp in Sources */,
+				841A3FDA1A9BDBCD00792760 /* Bar.cpp in Sources */,
+				841A3FFB1A9DBD3300792760 /* SimulationController.cpp in Sources */,
+				84E8A9B01AACE5CC0064A495 /* FileWriter.cpp in Sources */,
+				841A3FE91A9D259800792760 /* ArriveEvent.cpp in Sources */,
+				84E8A9AD1AACE2F10064A495 /* BarEvent.cpp in Sources */,
+				841A400A1AA6A27D00792760 /* BarEventPattern.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +224,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -225,6 +310,7 @@
 				841A3FD71A9BDA8500792760 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
